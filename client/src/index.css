@@ -2,6 +2,9 @@
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
+body {
+  overflow-x: hidden;
+}
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
@@ -119,5 +122,24 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@keyframes moveDot {
+  0%, 100% {
+    top: 10%;
+    right: 10%;
+  }
+  25% {
+    top: 10%;
+    right: calc(100% - 35px);
+  }
+  50% {
+    top: calc(100% - 30px);
+    right: calc(100% - 35px);
+  }
+  75% {
+    top: calc(100% - 30px);
+    right: 10%;
   }
 }
