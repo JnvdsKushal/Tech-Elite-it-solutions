@@ -1,0 +1,9 @@
+2026-03-06 11:23:32 IST LOG:  database system was shut down at 2026-03-06 11:18:42 IST
+2026-03-06 11:28:32 IST LOG:  checkpoint starting: time
+2026-03-06 11:29:10 IST FATAL:  password authentication failed for user "postgres"
+2026-03-06 11:29:10 IST DETAIL:  Connection matched file "C:/Users/Anusree/Downloads/Tech-Elite-it-solutions-Kushal/DATABASE/pg_hba.conf" line 117: "host    all             all             ::1/128                 scram-sha-256"
+2026-03-06 11:29:12 IST FATAL:  password authentication failed for user "postgres"
+2026-03-06 11:29:12 IST DETAIL:  Connection matched file "C:/Users/Anusree/Downloads/Tech-Elite-it-solutions-Kushal/DATABASE/pg_hba.conf" line 117: "host    all             all             ::1/128                 scram-sha-256"
+2026-03-06 11:30:20 IST LOG:  checkpoint complete: wrote 993 buffers (6.1%), wrote 3 SLRU buffers; 1 WAL file(s) added, 0 removed, 0 recycled; write=107.144 s, sync=0.680 s, total=107.929 s; sync files=304, longest=0.013 s, average=0.003 s; distance=4711 kB, estimate=4711 kB; lsn=0/1CC8048, redo lsn=0/1CC7FA0
+2026-03-06 11:33:32 IST LOG:  checkpoint starting: time
+2026-03-06 11:33:46 IST LOG:  checkpoint complete: wrote 131 buffers (0.8%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=14.142 s, sync=0.188 s, total=14.363 s; sync files=102, longest=0.014 s, average=0.002 s; distance=758 kB, estimate=4315 kB; lsn=0/1D859D8, redo lsn=0/1D85948

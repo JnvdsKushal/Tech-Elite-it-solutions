@@ -1,0 +1,10 @@
+2026-03-06 10:55:52 IST LOG:  database system was shut down at 2026-03-06 10:55:41 IST
+2026-03-06 11:00:52 IST LOG:  checkpoint starting: time
+2026-03-06 11:00:56 IST LOG:  checkpoint complete: wrote 34 buffers (0.2%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=3.710 s, sync=0.029 s, total=3.765 s; sync files=10, longest=0.013 s, average=0.003 s; distance=243 kB, estimate=243 kB; lsn=0/182E2B8, redo lsn=0/182E260
+2026-03-06 11:01:05 IST FATAL:  database "tech_elite_db" does not exist
+2026-03-06 11:01:06 IST FATAL:  database "tech_elite_db" does not exist
+2026-03-06 11:04:28 IST FATAL:  database "tech_elite_db" does not exist
+2026-03-06 11:04:29 IST FATAL:  database "tech_elite_db" does not exist
+2026-03-06 11:18:42 IST LOG:  shutting down
+2026-03-06 11:18:42 IST LOG:  checkpoint starting: shutdown immediate
+2026-03-06 11:18:42 IST LOG:  checkpoint complete: wrote 0 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.022 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=218 kB; lsn=0/182E368, redo lsn=0/182E368
